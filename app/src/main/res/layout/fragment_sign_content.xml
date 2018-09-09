@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:visibility="gone">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+
+                <com.happycomehealthy.widget.TextItemVew
+                    android:id="@+id/tiv_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:left_text="@string/user_name">
+
+                </com.happycomehealthy.widget.TextItemVew>
+
+                <com.happycomehealthy.widget.TextItemVew
+                    android:id="@+id/tiv_user_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:left_text="@string/user_id">
+
+                </com.happycomehealthy.widget.TextItemVew>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
+
+                    <Button
+                        android:id="@+id/btn_sign"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:background="@drawable/selector_orange_bg"
+                        android:gravity="center"
+                        android:text="@string/has_not_signed"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+                <com.happycomehealthy.widget.TextItemVew
+                    android:id="@+id/tiv_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:left_text="@string/age">
+
+                </com.happycomehealthy.widget.TextItemVew>
+
+                <com.happycomehealthy.widget.TextItemVew
+                    android:id="@+id/tiv_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:left_text="@string/sex">
+
+                </com.happycomehealthy.widget.TextItemVew>
+
+                <com.happycomehealthy.widget.TextItemVew
+                    android:id="@+id/tiv_phoneNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:left_text="@string/phoneNumber">
+
+                </com.happycomehealthy.widget.TextItemVew>
+
+                <com.happycomehealthy.widget.TextItemVew
+                    android:id="@+id/tiv_introducer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:left_text="@string/introducer">
+
+                </com.happycomehealthy.widget.TextItemVew>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/address" />
+
+                <EditText
+                    android:id="@+id/edt_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/button_bk_orange" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/medical_history" />
+
+                <EditText
+                    android:id="@+id/edt_medical_history"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/button_bk_orange" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <Button
+                android:id="@+id/btn_edit"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/selector_orange_bg"
+                android:gravity="center"
+                android:text="@string/edit"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

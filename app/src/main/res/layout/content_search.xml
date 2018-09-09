@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/gray_background"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp">
+
+                <Button
+                    android:id="@+id/btn_sign"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/selector_green_bg"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:text="@string/sign"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/gray_background"/>
+
+
+                <com.happycomehealthy.widget.TextItemVew
+                    android:id="@+id/tiv_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:left_text="@string/user_name">
+
+                </com.happycomehealthy.widget.TextItemVew>
+
+
+            <com.happycomehealthy.widget.TextItemVew
+                android:id="@+id/tiv_user_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:left_text="@string/user_id">
+
+            </com.happycomehealthy.widget.TextItemVew>
+
+            <com.happycomehealthy.widget.TextItemVew
+                android:id="@+id/tiv_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:left_text="@string/age">
+
+            </com.happycomehealthy.widget.TextItemVew>
+
+            <com.happycomehealthy.widget.TextItemVew
+                android:id="@+id/tiv_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:left_text="@string/sex">
+
+            </com.happycomehealthy.widget.TextItemVew>
+
+            <com.happycomehealthy.widget.TextItemVew
+                android:id="@+id/tiv_phoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:left_text="@string/phoneNumber">
+
+            </com.happycomehealthy.widget.TextItemVew>
+
+            <com.happycomehealthy.widget.TextItemVew
+                android:id="@+id/tiv_introducer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:left_text="@string/introducer">
+
+            </com.happycomehealthy.widget.TextItemVew>
+
+
+            <com.happycomehealthy.widget.TextItemVew
+                android:id="@+id/tiv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:left_text="@string/address">
+
+            </com.happycomehealthy.widget.TextItemVew>
+
+            <com.happycomehealthy.widget.TextItemVew
+                android:id="@+id/tiv_medical_history"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:left_text="@string/medical_history">
+
+            </com.happycomehealthy.widget.TextItemVew>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/gray_background"/>
+
+            <com.happycomehealthy.widget.TextItemVew
+                android:id="@+id/tiv_feedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:left_text="@string/feedback">
+
+            </com.happycomehealthy.widget.TextItemVew>
+
+                <com.happycomehealthy.widget.TextItemVew
+                    android:id="@+id/tiv_personal_sign_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:left_text="@string/personal_sign_detail">
+
+                </com.happycomehealthy.widget.TextItemVew>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/gray_background"/>
+
+        </LinearLayout>
+</ScrollView>

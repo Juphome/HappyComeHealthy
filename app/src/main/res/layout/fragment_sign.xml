@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+   <LinearLayout
+       android:id="@+id/ll_search"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:visibility="gone"
+       android:orientation="vertical">
+       <EditText
+           android:id="@+id/edt_person_id"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="5dp"
+           android:background="@drawable/button_bk_orange"
+           android:hint="@string/please_input_person_id"/>
+
+       <Button
+           android:id="@+id/btn_search"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="5dp"
+           android:background="@drawable/selector_orange_bg"
+           android:text="@string/search"/>
+   </LinearLayout>
+
+
+   <LinearLayout
+       android:id="@+id/ll_user_info"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:visibility="gone"
+       android:orientation="vertical">
+       <include layout="@layout/fragment_sign_content"/>
+   </LinearLayout>
+
+</LinearLayout>

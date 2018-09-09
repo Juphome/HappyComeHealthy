@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.happycomehealthy.widget.TextItemVew
+        android:id="@+id/tiv_day_statistic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:left_text="@string/day_statistic">
+
+    </com.happycomehealthy.widget.TextItemVew>
+
+    <com.happycomehealthy.widget.TextItemVew
+        android:id="@+id/tiv_month_statistic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:left_text="@string/month_statistic">
+
+    </com.happycomehealthy.widget.TextItemVew>
+
+
+    <com.happycomehealthy.widget.TextItemVew
+        android:id="@+id/tiv_year_statistic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:left_text="@string/year_statistic">
+
+    </com.happycomehealthy.widget.TextItemVew>
+
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item-->
+        <!--android:id="@+id/item_sign"-->
+        <!--android:icon="@drawable/ic_sign_default"-->
+        <!--android:title="@string/sign" />-->
+    <item
+        android:id="@+id/item_edit"
+        android:icon="@drawable/ic_edit_default"
+        android:title="@string/edit" />
+
+    <item
+        android:id="@+id/item_statistics"
+        android:icon="@drawable/ic_statistic_default"
+        android:title="@string/statistics" />
+
+    <item
+        android:id="@+id/item_mime"
+        android:icon="@drawable/ic_mine_default"
+        android:title="@string/mime" />
+
+</menu>
